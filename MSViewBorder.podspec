@@ -17,14 +17,14 @@ Pod::Spec.new do |spec|
 
   spec.name         = "MSViewBorder"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of MSViewBorder."
+  spec.summary      = "简介"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "简介"
+  spec.description  = "简介简介简介 "
 
   spec.homepage     = "https://github.com/msbaby520/MSViewBorder"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
