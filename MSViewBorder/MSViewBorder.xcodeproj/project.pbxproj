@@ -182,7 +182,6 @@
 				15BED68BA7FFDD2281B6DD9E /* Pods-MSViewBorderUITests.debug.xcconfig */,
 				7F86ECE0EF61C336095C64AC /* Pods-MSViewBorderUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -562,6 +561,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BB9FC7F95E83AF6955507633 /* Pods-MSViewBorder.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MSViewBorder/Info.plist;
@@ -579,6 +579,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4EF4719A1A0444987CEEE743 /* Pods-MSViewBorder.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MSViewBorder/Info.plist;
