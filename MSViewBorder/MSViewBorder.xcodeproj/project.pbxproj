@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B1BB4CCCB351216C8CC41C8 /* libPods-MSViewBorder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9025096A22FE629E130476B3 /* libPods-MSViewBorder.a */; };
+		4E02783E22B1D2C500B2219C /* UIView+MSViewBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E02783D22B1D2C500B2219C /* UIView+MSViewBorder.m */; };
 		4ED50CEA22B0FF6700241BE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED50CE922B0FF6700241BE5 /* AppDelegate.m */; };
 		4ED50CED22B0FF6700241BE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED50CEC22B0FF6700241BE5 /* ViewController.m */; };
 		4ED50CF022B0FF6700241BE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ED50CEE22B0FF6700241BE5 /* Main.storyboard */; };
@@ -15,7 +17,8 @@
 		4ED50CF822B0FF6800241BE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED50CF722B0FF6800241BE5 /* main.m */; };
 		4ED50D0222B0FF6800241BE5 /* MSViewBorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED50D0122B0FF6800241BE5 /* MSViewBorderTests.m */; };
 		4ED50D0D22B0FF6800241BE5 /* MSViewBorderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED50D0C22B0FF6800241BE5 /* MSViewBorderUITests.m */; };
-		4ED50D1D22B0FFA800241BE5 /* MSViewBorderTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED50D1C22B0FFA800241BE5 /* MSViewBorderTool.m */; };
+		5CB83F62B9C25B10F2F14AB9 /* libPods-MSViewBorderUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C23E585C36F5C78A51F9EE /* libPods-MSViewBorderUITests.a */; };
+		C2442D68F3F7ACB2A609A5B5 /* libPods-MSViewBorderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C9D9E00EE7EE6FD9425708C /* libPods-MSViewBorderTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15BED68BA7FFDD2281B6DD9E /* Pods-MSViewBorderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSViewBorderUITests.debug.xcconfig"; path = "Target Support Files/Pods-MSViewBorderUITests/Pods-MSViewBorderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2EFF46152B56C09B9A08B776 /* Pods-MSViewBorderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSViewBorderTests.release.xcconfig"; path = "Target Support Files/Pods-MSViewBorderTests/Pods-MSViewBorderTests.release.xcconfig"; sourceTree = "<group>"; };
+		4E02783C22B1D2C500B2219C /* UIView+MSViewBorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+MSViewBorder.h"; sourceTree = "<group>"; };
+		4E02783D22B1D2C500B2219C /* UIView+MSViewBorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+MSViewBorder.m"; sourceTree = "<group>"; };
 		4ED50CE522B0FF6700241BE5 /* MSViewBorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSViewBorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ED50CE822B0FF6700241BE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4ED50CE922B0FF6700241BE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,8 +59,13 @@
 		4ED50D0822B0FF6800241BE5 /* MSViewBorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSViewBorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ED50D0C22B0FF6800241BE5 /* MSViewBorderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSViewBorderUITests.m; sourceTree = "<group>"; };
 		4ED50D0E22B0FF6800241BE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4ED50D1B22B0FFA800241BE5 /* MSViewBorderTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSViewBorderTool.h; sourceTree = "<group>"; };
-		4ED50D1C22B0FFA800241BE5 /* MSViewBorderTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSViewBorderTool.m; sourceTree = "<group>"; };
+		4EF4719A1A0444987CEEE743 /* Pods-MSViewBorder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSViewBorder.release.xcconfig"; path = "Target Support Files/Pods-MSViewBorder/Pods-MSViewBorder.release.xcconfig"; sourceTree = "<group>"; };
+		7F86ECE0EF61C336095C64AC /* Pods-MSViewBorderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSViewBorderUITests.release.xcconfig"; path = "Target Support Files/Pods-MSViewBorderUITests/Pods-MSViewBorderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8C9D9E00EE7EE6FD9425708C /* libPods-MSViewBorderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSViewBorderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9025096A22FE629E130476B3 /* libPods-MSViewBorder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSViewBorder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7C23E585C36F5C78A51F9EE /* libPods-MSViewBorderUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSViewBorderUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9FC7F95E83AF6955507633 /* Pods-MSViewBorder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSViewBorder.debug.xcconfig"; path = "Target Support Files/Pods-MSViewBorder/Pods-MSViewBorder.debug.xcconfig"; sourceTree = "<group>"; };
+		C44EDF8B463416ECC728D1D7 /* Pods-MSViewBorderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSViewBorderTests.debug.xcconfig"; path = "Target Support Files/Pods-MSViewBorderTests/Pods-MSViewBorderTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B1BB4CCCB351216C8CC41C8 /* libPods-MSViewBorder.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2442D68F3F7ACB2A609A5B5 /* libPods-MSViewBorderTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CB83F62B9C25B10F2F14AB9 /* libPods-MSViewBorderUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +103,8 @@
 				4ED50D0022B0FF6800241BE5 /* MSViewBorderTests */,
 				4ED50D0B22B0FF6800241BE5 /* MSViewBorderUITests */,
 				4ED50CE622B0FF6700241BE5 /* Products */,
+				FBE79788951C0D4D9FD03F59 /* Pods */,
+				797364287BB6B729A4EA9324 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,10 +156,34 @@
 		4ED50D1A22B0FF9100241BE5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4ED50D1B22B0FFA800241BE5 /* MSViewBorderTool.h */,
-				4ED50D1C22B0FFA800241BE5 /* MSViewBorderTool.m */,
+				4E02783C22B1D2C500B2219C /* UIView+MSViewBorder.h */,
+				4E02783D22B1D2C500B2219C /* UIView+MSViewBorder.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		797364287BB6B729A4EA9324 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9025096A22FE629E130476B3 /* libPods-MSViewBorder.a */,
+				8C9D9E00EE7EE6FD9425708C /* libPods-MSViewBorderTests.a */,
+				B7C23E585C36F5C78A51F9EE /* libPods-MSViewBorderUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBE79788951C0D4D9FD03F59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB9FC7F95E83AF6955507633 /* Pods-MSViewBorder.debug.xcconfig */,
+				4EF4719A1A0444987CEEE743 /* Pods-MSViewBorder.release.xcconfig */,
+				C44EDF8B463416ECC728D1D7 /* Pods-MSViewBorderTests.debug.xcconfig */,
+				2EFF46152B56C09B9A08B776 /* Pods-MSViewBorderTests.release.xcconfig */,
+				15BED68BA7FFDD2281B6DD9E /* Pods-MSViewBorderUITests.debug.xcconfig */,
+				7F86ECE0EF61C336095C64AC /* Pods-MSViewBorderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4ED50D1122B0FF6800241BE5 /* Build configuration list for PBXNativeTarget "MSViewBorder" */;
 			buildPhases = (
+				433AF2D0753A69098D4C8E54 /* [CP] Check Pods Manifest.lock */,
 				4ED50CE122B0FF6700241BE5 /* Sources */,
 				4ED50CE222B0FF6700241BE5 /* Frameworks */,
 				4ED50CE322B0FF6700241BE5 /* Resources */,
@@ -169,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4ED50D1422B0FF6800241BE5 /* Build configuration list for PBXNativeTarget "MSViewBorderTests" */;
 			buildPhases = (
+				080202F6AE56819FCE3BD4F7 /* [CP] Check Pods Manifest.lock */,
 				4ED50CF922B0FF6800241BE5 /* Sources */,
 				4ED50CFA22B0FF6800241BE5 /* Frameworks */,
 				4ED50CFB22B0FF6800241BE5 /* Resources */,
@@ -187,6 +230,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4ED50D1722B0FF6800241BE5 /* Build configuration list for PBXNativeTarget "MSViewBorderUITests" */;
 			buildPhases = (
+				F85F61F9F7F5E82E34FEB4B4 /* [CP] Check Pods Manifest.lock */,
 				4ED50D0422B0FF6800241BE5 /* Sources */,
 				4ED50D0522B0FF6800241BE5 /* Frameworks */,
 				4ED50D0622B0FF6800241BE5 /* Resources */,
@@ -270,13 +314,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		080202F6AE56819FCE3BD4F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MSViewBorderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		433AF2D0753A69098D4C8E54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MSViewBorder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F85F61F9F7F5E82E34FEB4B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MSViewBorderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4ED50CE122B0FF6700241BE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ED50D1D22B0FFA800241BE5 /* MSViewBorderTool.m in Sources */,
 				4ED50CED22B0FF6700241BE5 /* ViewController.m in Sources */,
+				4E02783E22B1D2C500B2219C /* UIView+MSViewBorder.m in Sources */,
 				4ED50CF822B0FF6800241BE5 /* main.m in Sources */,
 				4ED50CEA22B0FF6700241BE5 /* AppDelegate.m in Sources */,
 			);
@@ -447,6 +560,7 @@
 		};
 		4ED50D1222B0FF6800241BE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB9FC7F95E83AF6955507633 /* Pods-MSViewBorder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -463,6 +577,7 @@
 		};
 		4ED50D1322B0FF6800241BE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EF4719A1A0444987CEEE743 /* Pods-MSViewBorder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -479,6 +594,7 @@
 		};
 		4ED50D1522B0FF6800241BE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C44EDF8B463416ECC728D1D7 /* Pods-MSViewBorderTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -497,6 +613,7 @@
 		};
 		4ED50D1622B0FF6800241BE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EFF46152B56C09B9A08B776 /* Pods-MSViewBorderTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -515,6 +632,7 @@
 		};
 		4ED50D1822B0FF6800241BE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15BED68BA7FFDD2281B6DD9E /* Pods-MSViewBorderUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MSViewBorderUITests/Info.plist;
@@ -532,6 +650,7 @@
 		};
 		4ED50D1922B0FF6800241BE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F86ECE0EF61C336095C64AC /* Pods-MSViewBorderUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MSViewBorderUITests/Info.plist;
