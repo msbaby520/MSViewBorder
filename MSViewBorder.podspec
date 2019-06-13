@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 s.name         = "MSViewBorder"
-s.version      = "1.0.0"
+s.version      = "1.0.1"
 s.summary      = "添加边框"
 s.description  = <<-DESC
 给view添加任意边框
