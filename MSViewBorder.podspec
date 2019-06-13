@@ -13,5 +13,6 @@ s.platform     = :ios, "7.0"
 s.source       = { :git => "https://github.com/msbaby520/MSViewBorder.git", :tag => s.version }
 s.source_files  = "Classes", "MSViewBorder/MSViewBorder/Classes/**/*.{h,m}"
 s.requires_arc = true
+s.frameworks = "Foundation","UIKit"
 s.dependency 'Masonry'
 end
