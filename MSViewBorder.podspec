@@ -1,10 +1,10 @@
 
 Pod::Spec.new do |s|
 s.name         = "MSViewBorder"
-s.version      = "1.0.1"
-s.summary      = "添加边框"
+s.version      = "1.0.2"
+s.summary      = "添加任意方向边框"
 s.description  = <<-DESC
-给view添加任意边框
+给view添加任意方向边框
 DESC
 s.homepage     = "https://github.com/msbaby520/MSViewBorder"
 s.license      = { :type => "MIT", :file => "LICENSE" }
