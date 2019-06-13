@@ -7,7 +7,7 @@
 //
 
 #import "UIView+MSViewBorder.h"
-#import <Masonry.h>
+#import <Masonry/Masonry.h>
 
 @implementation UIView (MSViewBorder)
 
